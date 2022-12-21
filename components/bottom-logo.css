@@ -1,0 +1,50 @@
+.bottom-logo-container {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: space-between;
+  flex-direction: column;
+}
+.bottom-logo-text {
+  font-size: 16px;
+  font-family: Sora;
+}
+.bottom-logo-text1 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Work Sans;
+  font-weight: 500;
+}
+@media(max-width: 1200px) {
+  .bottom-logo-text {
+    font-size: 16px;
+    font-family: Sora;
+  }
+  .bottom-logo-text1 {
+    font-size: 16px;
+    font-style: normal;
+    font-family: Work Sans;
+    font-weight: 500;
+  }
+}
+@media(max-width: 991px) {
+  .bottom-logo-container {
+    width: auto;
+    height: 43px;
+  }
+}
+@media(max-width: 767px) {
+  .bottom-logo-container {
+    width: 149px;
+  }
+}
+@media(max-width: 479px) {
+  .bottom-logo-container {
+    width: 138px;
+  }
+  .bottom-logo-text1 {
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+}

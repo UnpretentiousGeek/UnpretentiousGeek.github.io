@@ -1,0 +1,87 @@
+.logo-container {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.logo-text {
+  font-style: normal;
+  font-family: Sora;
+  font-weight: 700;
+}
+.logo-text3 {
+  font-style: normal;
+  font-family: Work Sans;
+  font-weight: 500;
+}
+@media(max-width: 1200px) {
+  .logo-text {
+    width: 299px;
+    font-family: Sora;
+    font-weight: 500;
+    margin-left: 2px;
+  }
+  .logo-text1 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .logo-text2 {
+    font-style: normal;
+    font-weight: 700;
+  }
+}
+@media(max-width: 991px) {
+  .logo-container {
+    width: auto;
+  }
+  .logo-text {
+    width: 229px;
+    height: 23px;
+    font-size: 14px;
+    font-style: normal;
+    font-family: Sora;
+    font-weight: 500;
+  }
+  .logo-text1 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .logo-text2 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .logo-text3 {
+    font-size: 25px;
+  }
+}
+@media(max-width: 767px) {
+  .logo-text3 {
+    font-size: 25px;
+  }
+}
+@media(max-width: 479px) {
+  .logo-text {
+    width: auto;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Sora;
+    font-weight: 700;
+  }
+  .logo-text1 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .logo-text2 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .logo-text3 {
+    font-size: 25px;
+    font-style: normal;
+    font-family: Work Sans;
+    font-weight: 500;
+  }
+}

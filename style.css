@@ -1,0 +1,165 @@
+:root {
+  --dl-color-aqua-a: #0b698bff;
+  --dl-color-aqua-b: #0396a6ff;
+  --dl-color-aqua-c: #9cd3d8ff;
+  --dl-color-aqua-d: #f2f2f2ff;
+  --dl-color-beach-a: #eab875ff;
+  --dl-color-beach-b: #e1c7a5ff;
+  --dl-color-beach-c: #d3e3e2ff;
+  --dl-color-beach-d: #7bc5c1ff;
+  --dl-color-gray-500: #595959;
+  --dl-color-gray-700: #999999;
+  --dl-color-gray-900: #D9D9D9;
+  --dl-color-memory-a: #2e2f5bff;
+  --dl-color-memory-b: #505581ff;
+  --dl-color-memory-c: #f4d35eff;
+  --dl-color-memory-d: #faf0caff;
+  --dl-color-summer-a: #2d8d79ff;
+  --dl-color-summer-b: #8fc79aff;
+  --dl-color-summer-c: #5e9387ff;
+  --dl-color-summer-d: #cee9b6ff;
+  --dl-color-seawave-a: #004581ff;
+  --dl-color-seawave-b: #018abdff;
+  --dl-color-seawave-c: #97cbdcff;
+  --dl-color-seawave-d: #dde8f0ff;
+  --dl-size-size-large: 144px;
+  --dl-size-size-small: 48px;
+  --dl-color-danger-300: #A22020;
+  --dl-color-danger-500: #BF2626;
+  --dl-color-danger-700: #E14747;
+  --dl-color-gray-black: #000000;
+  --dl-color-gray-white: #FFFFFF;
+  --dl-size-size-medium: 96px;
+  --dl-size-size-xlarge: 192px;
+  --dl-size-size-xsmall: 16px;
+  --dl-space-space-unit: 16px;
+  --dl-color-primary-100: #003EB3;
+  --dl-color-primary-300: #0074F0;
+  --dl-color-primary-500: #14A9FF;
+  --dl-color-primary-700: #85DCFF;
+  --dl-color-success-300: #199033;
+  --dl-color-success-500: #32A94C;
+  --dl-color-success-700: #4CC366;
+  --dl-color-tangerine-a: #ff6d00ff;
+  --dl-color-tangerine-b: #ff9201ff;
+  --dl-color-tangerine-c: #ffab41ff;
+  --dl-color-tangerine-d: #ffd181ff;
+  --dl-color-turquoise-a: #00a78942;
+  --dl-color-turquoise-b: #03a98cf2;
+  --dl-color-turquoise-c: #05a88cff;
+  --dl-color-turquoise-d: #04a98aff;
+  --dl-color-turquoise-e: #ccf0e9ff;
+  --dl-color-turquoise-f: #66d3beff;
+  --dl-color-turquoise-g: #80dbc9ff;
+  --dl-color-turquoise-h: #99e2d3ff;
+  --dl-color-turquoise-i: #b3e9deff;
+  --dl-color-turquoise-j: #e6f8f4ff;
+  --dl-size-size-xxlarge: 288px;
+  --dl-size-size-maxwidth: 1400px;
+  --dl-radius-radius-round: 50%;
+  --dl-space-space-halfunit: 8px;
+  --dl-space-space-sixunits: 96px;
+  --dl-space-space-twounits: 32px;
+  --dl-radius-radius-radius2: 2px;
+  --dl-radius-radius-radius4: 4px;
+  --dl-radius-radius-radius8: 8px;
+  --dl-space-space-fiveunits: 80px;
+  --dl-space-space-fourunits: 64px;
+  --dl-space-space-threeunits: 48px;
+  --dl-space-space-oneandhalfunits: 24px;
+}
+.button {
+  color: var(--dl-color-gray-black);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.input {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.textarea {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
+.list-item {
+  display: list-item;
+}
+.teleport-show {
+  display: flex !important;
+  transform: none !important;
+}
+.header {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.Heading {
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.Content {
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+@media(max-width: 1200px) {
+  .header {
+    width: 1200px;
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 991px) {
+  .header {
+    width: 990px;
+  }
+}
+@media(max-width: 767px) {
+  .header {
+    width: 766px;
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 479px) {
+  .header {
+    width: 478px;
+    padding: var(--dl-space-space-unit);
+  }
+}
