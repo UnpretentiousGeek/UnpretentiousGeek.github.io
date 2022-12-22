@@ -35,6 +35,14 @@
     left: 63%;
 }
 
+@media(max-width: 1600px) {
+
+    .home-image {
+        margin-right: auto;
+        margin-left: auto;
+      }
+}
+
 @media(max-width: 991px) {
     .home-hero {
         flex-direction: column;
